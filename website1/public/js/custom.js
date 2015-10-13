@@ -1,4 +1,6 @@
 $(document).ready( function() {
+	
+
     $('#myCarousel').carousel({
     	interval:   4000
 	});
@@ -21,7 +23,6 @@ $(document).ready( function() {
 		clickEvent = false;
 	});
 });
-
 (function(){
   $('#carousel123').carousel({ interval: 2000 });
   $('#carouselABC').carousel({ interval: 3600 });

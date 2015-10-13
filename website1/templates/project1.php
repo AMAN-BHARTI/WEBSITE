@@ -8,7 +8,7 @@
 		
 
 		$this->form_validation->set_rules('registerFirstName','First Name','required|trim|alpha');
-	//	$this->form_validation->set_rules("phone","Phone","required|trim|numeric");
+		$this->form_validation->set_rules("phone","Phone","required|trim|numeric");
 		$this->form_validation->set_rules("registerUsername","Username","required|trim|is_unique[users.username]|is_unique[temp_users.username]");
     	$this->form_validation->set_rules('registerEmail','Email','required|trim|valid_email|is_unique[users.email]|is_unique[temp_users.email]');
     	$this->form_validation->set_rules('registerPassword','password','required|trim');
